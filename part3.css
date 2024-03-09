@@ -1,0 +1,34 @@
+*{
+    background-color: rgba(76,76,76,255);
+}
+
+.mainCont{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.firstblock{
+border: 2px solid white;
+border-radius: 13px;
+margin: 20px;
+display: flex;
+flex-direction: column;
+width: 600px;
+}
+
+.fecha{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fecha p{
+    color: aliceblue;
+    margin: 10px;
+}
+.fecha input{
+    background-color: #fff;
+    margin: 10px;
+    width: 120px;
+    height: 20px;
+}

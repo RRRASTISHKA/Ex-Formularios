@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./part3.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <img src="./profile-icon.png" alt="">
+        <H2>Perfil</H2>
+    </header>
+    <div class="mainCont">
+    <div class="firstblock">
+        <p class="border-text">Datos</p>
+        <div class="fecha">
+            <p>fecha de nacimiento</p>
+            <input type="date">
+        </div>
+        <div class="archive">
+            <p>Ingrede su foto</p>
+            <input type="file">
+        </div>
+
+        <div class="color">
+            <p>Color favorito:</p>
+            <input list="FavColor">
+            <datalist id="FavColor">
+                <option value="black"></option>
+                <option value="white"></option>
+                <option value="yellow"></option>
+                <option value="green"></option>
+                <option value="red"></option>
+            </datalist>
+        </div>
+
+        <div class="Sexo">
+            <p>Sexo:</p>
+            <input type="radio" value="Masculino" name="Sexo"><p>Masculino</p>
+            <input type="radio" value="Femenino" name="Sexo"><p>Femenino</p>
+        </div>
+        <div class="edad">
+            <p>Edad:</p>
+            <input type="number">
+        </div>
+        <div class="direcion">
+            <p>Direccion:</p>
+            <textarea name="" id="" cols="30" rows="8"></textarea>
+        </div>
+    </div>
+    <div class="secondblock">
+        <p>Temas</p>
+        <div class="Tema">
+            <p>Elija tema de interes</p>
+            <div class="inputs">
+                <input type="radio" name="tema"><p>ciencia</p>
+                <input type="radio" name="tema"><p>arte</p>
+                <input type="radio" name="tema"><p>literatura</p>
+                <input type="radio" name="tema"><p>tecnologia</p>
+                <input type="radio" name="tema"><p>musica</p>
+                <input type="radio" name="tema"><p>informatica</p>
+            </div>
+        </div>
+        <div class="LibrosYArt">
+            <p>Libros y articulos de su interes:</p>
+            <textarea name="myInterests" id="myInterests" cols="30" rows="8"></textarea>
+        </div>
+    </div>
+    <div class="thirdblock">
+        <p>Aficiones</p>
+        <div class="PasaTiempo">
+            <p>Elija su pasatiempo</p>
+            <input type="checkbox"><p>Deporte</p>
+            <input type="checkbox"><p>Musica</p>
+            <input type="checkbox"><p>Lectura</p>
+            <input type="checkbox"><p>Pesca</p>
+            <input type="checkbox"><p>Pasear</p>
+            <input type="checkbox"><p>Cine</p>
+        </div>
+    </div>
+</div>
+    <div class="send">
+        <input type="submit" value="Enviar informacion">
+    </div>
+    
+</body>
+</html>
